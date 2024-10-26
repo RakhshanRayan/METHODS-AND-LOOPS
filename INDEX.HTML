@@ -8,15 +8,15 @@
     <p>numbers form 1 to 10</p>
     <p id="result"></p>
     <script>
-              var number = "";
-              for (i = 1;i < 11; i++
-                  number = number + i + "<br>";
-              )
+      var number = "";
+      for (i = 1; i < 11; i++) {
+        number = number + i + "<br>";
+      }
       document.getElementById("result").innerHTML = number;
-      document.write("The random value is " + Math.floor(Math.random()* 100));
+      document.write("The random value is " + Math.floor(Math.random() * 100));
       document.write("<br>");
-      var data = new Data(;)
-      document.write("Today's Data is " + data.getData()):
+      var date = new Date();
+      document.write("Today's Date is " + date.getDate());
     </script>
   </body>
 </html>
